@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi cumple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="button">
+      <div class="loader button__loader"></div>
+      <span>Te invito a mi cumple</span>
+    </button>
+
+    <div class="success-screen">
+      <h1 class="success-screen__header">
+        Hola, soy Irina, cumplo seis años y te invito a festejarlos!!!
+      </h1>
+
+      <div class="confetti-container"></div>
+    </div>
+    <div class="toast">
+      <div id="footer"></div>
+      <div class="toast__content">
+        <div class="toast__header">Quinta "La Araucaria"</div>
+        <div class="toast__sub-header">
+          Sabado 29 de Abril en Patagones 836, Bosques
+        </div>
+        <div class="toast__sub-header">Horario: 10:00 a 18:00</div>
+      </div>
+    </div>
+    <audio id="audio" controls>
+      <source type="audio/wav" src="/intro.wav" />
+    </audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
